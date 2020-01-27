@@ -6,8 +6,8 @@ function Counter({ value, dispatch, min, max }) {
   return (
     <div className="counter">
       <div className="value-box">{value}</div>
-      <button onClick={() => dispatch(actions.dec)}>-</button>
-      <button onClick={() => dispatch(actions.inc)}>+</button>
+      <button onClick={() => dispatch({ type: actions.dec })}>-</button>
+      <button onClick={() => dispatch({ type: actions.inc })}>+</button>
       <button onClick={() => {}}>Reroll</button>
     </div>
   );
