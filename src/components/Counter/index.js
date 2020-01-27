@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "./index.css";
 import { actions } from "../../store";
 
@@ -12,5 +13,11 @@ function Counter({ value, dispatch, fetchRandom }) {
     </div>
   );
 }
+
+Counter.propTypes = {
+  value: PropTypes.number.isRequired,
+  dispatch: PropTypes.func.isRequired,
+  fetchRandom: PropTypes.func.isRequired
+};
 
 export default Counter;
