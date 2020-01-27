@@ -9,6 +9,11 @@ def random():
     return jsonify({'value': randint(0, 100)})
 
 
+@app.route('/')
+def root():
+    return send_from_directory(app.static_folder, 'index.html')
+
+
 @app.route('/<path:path>')
-def send_js(path):
+def static_files(path):
     return send_from_directory(app.static_folder, path)
