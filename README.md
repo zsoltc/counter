@@ -14,7 +14,7 @@ Run `npm run build` to create a prod build in the `build` folder.
 
 Run `npm run server` to start the Flask server. It will serve the client files and expose the random api.
 
-Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
+Open [http://localhost:5000/index.html](http://localhost:5000/index.html) to view it in the browser.
 
 ### Running tests
 
