@@ -1,10 +1,10 @@
 ## Instructions
 
-Run `npm install` .
+Run `npm install` 
 
 ### Running only the client React app
 
-Run `npm start` .
+Run `npm start` 
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
@@ -12,10 +12,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Run `npm run build` to create a prod build in the `build` folder.
 
-Run `npm run server` to start the Flask server. It will serve the client files and expose the random api.
+Run `npm run flask` to start the Flask server. It will serve the client files and expose the random api.
 
 Open [http://localhost:5000/index.html](http://localhost:5000/index.html) to view it in the browser.
 
 ### Running tests
 
-Run `npm test` .
+Run `npm test` 
