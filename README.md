@@ -1,4 +1,4 @@
-## Instructions
+## Setup without Docker
 
 Run `npm install` 
 
@@ -19,3 +19,9 @@ Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
 ### Running tests
 
 Run `npm test` 
+
+## Setup with Docker
+
+Run `docker-compose up`
+
+Open [http://localhost:5000](http://localhost:5000) to view it in the browser.
